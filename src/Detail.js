@@ -58,7 +58,7 @@ function App() {
               Sử dụng vải canvas NE phối hợp cùng da lộn, Vintas Mister phiên bản mới gia tăng thêm độ thoải mái khi lên chân,
               đồng thời vẫn nguyên vẹn diện mạo cổ điển đầy cuốn hút. Lựa chọn không thể bỏ qua đối với mọi tín đồ theo đuổi
               nét đẹp mang dấu ấn thời gian.ou know best:
-              era-echoing, '80s construction, bold details and nothin'-but-net style.
+              era-echoing, '80s construction, bold details and nothin'-but-net style list.
             </div>
             <div className='flex flex-row items-center'>
               <div className='mr-2'>Available sizes:</div>
