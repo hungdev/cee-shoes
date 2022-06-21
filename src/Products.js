@@ -9,7 +9,8 @@ import {
   FaTimes,
 } from "react-icons/fa";
 import { FiLogOut } from "react-icons/fi";
-import { products } from './fakeData'
+import { products } from './fakeData';
+import Heart from './assets/Heart';
 
 function App() {
   return (
@@ -184,7 +185,12 @@ function App() {
           <div className='flex flex-wrap overflow-auto mt-4 -mr-10' style={{ height: 'calc(100vh - 16rem)' }}>
             {products.map(e => (
               <div className='mr-12 mb-12' style={{ width: 'calc(25% - 48px)' }}>
-                <img src={e.img} alt={e.title} className='object-cover h-48 w-full' />
+                <div className="relative">
+                  <img src={e.img} alt={e.title} className='object-cover h-48 w-full' />
+                  <div className="wrap-heart">
+                    <Heart />
+                  </div>
+                </div>
                 <div className='p-1'>
                   <div className='font-bold'>{e.title}</div>
                   <div>{e.details}</div>

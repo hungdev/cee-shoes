@@ -105,3 +105,82 @@
 .product-container {
   margin: 12.5rem 40px 0px;
 }
+
+// comment
+
+.wrap-write-review {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-comment {
+  border: 1px solid grey;
+  height: 50px;
+  width: 50%;
+  margin-top: 10px;
+}
+
+// 
+.item-number {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2FA5E9;
+  color: white;
+}
+
+.wrap-heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.input-quantity {
+  width: 30px;
+  text-align: center;
+}
+
+// auth screen
+.auth-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  .wrap-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .left {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .9)), url("./assets/images/shoe-head.jpg");
+    background-size: cover;
+    width: 50%;
+    background-position: 25%;
+    background-size: cover;
+    height: calc(100vh - 4rem);
+  }
+
+  .right {
+    width: 50%;
+  }
+
+  .eye-input {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+
+}
